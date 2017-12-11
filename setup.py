@@ -28,7 +28,7 @@ if sys.version_info[:2] == (2, 6):
     tests_require.append('unittest2')
 
 setup(
-    name = "elasticsearch-dsl",
+    name = "elasticsearch5-dsl",
     description = "Python client for Elasticsearch",
     license="Apache License, Version 2.0",
     url = "https://github.com/elasticsearch/elasticsearch-dsl-py",
