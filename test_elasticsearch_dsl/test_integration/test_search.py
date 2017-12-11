@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from elasticsearch import TransportError
+from elasticsearch5 import TransportError
 
 from elasticsearch_dsl import Search, DocType, Date, Text, Keyword, MultiSearch, \
     MetaField, Index, Q

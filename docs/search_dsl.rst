@@ -32,7 +32,7 @@ instantiating the ``Search`` object:
 
 .. code:: python
 
-    from elasticsearch import Elasticsearch
+    from elasticsearch5 import Elasticsearch
     from elasticsearch_dsl import Search
 
     client = Elasticsearch()
