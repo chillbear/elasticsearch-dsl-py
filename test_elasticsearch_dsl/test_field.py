@@ -1,4 +1,4 @@
-from elasticsearch_dsl import field
+from elasticsearch5_dsl import field
 
 def test_boolean_deserialization():
     bf = field.Boolean()

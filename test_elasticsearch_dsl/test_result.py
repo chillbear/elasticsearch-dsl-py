@@ -2,7 +2,7 @@ import pickle
 from datetime import date
 from pytest import raises, fixture
 
-from elasticsearch_dsl import response, Search, DocType, Date, Object
+from elasticsearch5_dsl import response, Search, DocType, Date, Object
 from elasticsearch_dsl.aggs import Terms
 from elasticsearch_dsl.response.aggs import AggResponse, BucketData, Bucket
 

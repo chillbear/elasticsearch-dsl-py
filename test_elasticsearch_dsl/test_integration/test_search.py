@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from elasticsearch5 import TransportError
 
-from elasticsearch_dsl import Search, DocType, Date, Text, Keyword, MultiSearch, \
+from elasticsearch5_dsl import Search, DocType, Date, Text, Keyword, MultiSearch, \
     MetaField, Index, Q
 from elasticsearch_dsl.response import aggs
 

@@ -50,7 +50,7 @@ copyright = u'2014, Honza Král'
 # built documents.
 #
 
-import elasticsearch_dsl
+import elasticsearch5_dsl
 # The short X.Y version.
 version = elasticsearch_dsl.__versionstr__
 # The full version, including alpha/beta/rc tags.

@@ -1,4 +1,4 @@
-from elasticsearch_dsl import aggs, query
+from elasticsearch5_dsl import aggs, query
 
 from pytest import raises
 
@@ -182,4 +182,3 @@ def test_filters_correctly_identifies_the_hash():
         }
     } == a.to_dict()
     assert a.filters.group_a == query.Q('term', group='a')
-

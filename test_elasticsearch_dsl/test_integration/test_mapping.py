@@ -1,4 +1,4 @@
-from elasticsearch_dsl import mapping, analysis, exceptions
+from elasticsearch5_dsl import mapping, analysis, exceptions
 
 from pytest import raises
 

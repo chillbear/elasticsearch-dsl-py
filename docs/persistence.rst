@@ -266,7 +266,7 @@ accessed through the ``_doc_type`` attribute of the class:
     Post._doc_type.parent
 
 The ``_doc_type`` attribute is also home to the ``refresh`` method which will
-update the mapping on the ``DocType`` from elasticsearch. This is very useful
+update the mapping on the ``DocType`` from elasticsearch5. This is very useful
 if you use dynamic mappings and want the class to be aware of those fields (for
 example if you wish the ``Date`` fields to be properly (de)serialized):
 

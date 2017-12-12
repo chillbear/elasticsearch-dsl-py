@@ -1,7 +1,7 @@
 import collections
 import re
 
-from elasticsearch.exceptions import NotFoundError, RequestError
+from elasticsearch5.exceptions import NotFoundError, RequestError
 from six import iteritems, add_metaclass
 
 from .field import Field

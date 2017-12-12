@@ -3,7 +3,7 @@ import codecs
 from hashlib import md5
 from datetime import datetime
 
-from elasticsearch_dsl import document, field, Mapping, utils
+from elasticsearch5_dsl import document, field, Mapping, utils
 from elasticsearch_dsl.exceptions import ValidationException, IllegalOperation
 
 from pytest import raises
