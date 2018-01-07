@@ -16,7 +16,7 @@ install_requires = [
     'python-dateutil',
     'elasticsearch6>=6.0.0,<7.0.0',
     # ipaddress is included in stdlib sincxe py 3.3
-    'ipaddress; python_version<"3.3"'
+    # 'ipaddress; python_version<"3.3"'
 ]
 
 tests_require = [
